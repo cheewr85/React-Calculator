@@ -1,0 +1,62 @@
+#header {
+  background-color: skyblue;
+}
+
+/* nav바 설정 */
+#simple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+
+  margin-bottom: 20px;
+}
+#tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: cornflowerblue;
+  text-shadow: 0px 1px 2px black;
+}
+
+/**************************************** form 내부 설정 **************************/
+/* form 전체 중앙정렬 */
+#calculatorForm {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+/* div당 한줄씩 배치 & 가운데 공간 비워서 양끝에 배치 */
+.alignCenter {
+  display: flex;
+  justify-content: space-between;
+}
+
+#countries_select {
+  color: white;
+  background-color: cornflowerblue;
+  border: none;
+}
+
+#remittance_input {
+  border-radius: 30px;
+  border: 2px solid cornflowerblue;
+}
+
+#submitBtn {
+  width: 300px;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 30px;
+}
