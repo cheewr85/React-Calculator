@@ -49,6 +49,7 @@ h1 {
 #remittance_input {
   border-radius: 30px;
   border: 2px solid cornflowerblue;
+  text-align: center; /* input 내부 값 중앙정렬 */
 }
 
 #submitBtn {
@@ -59,4 +60,10 @@ h1 {
   background-color: cornflowerblue;
   border: none;
   border-radius: 30px;
+}
+
+#result_money {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
