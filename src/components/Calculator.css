@@ -67,3 +67,10 @@ h1 {
   justify-content: center;
   margin-top: 10px;
 }
+
+#error_money {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: red;
+}
