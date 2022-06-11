@@ -1,5 +1,5 @@
 import Calculator from "./components/Calculator";
-
+import TabCalculator from "./components/TabCalculator";
 function App() {
   return (
     <div className="App">
